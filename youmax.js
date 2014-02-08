@@ -1,4 +1,13 @@
+	var youTubeChannelURL = "";
+	var youTubePlaylistURL = "";
+	var youmaxDefaultTab = "featured";
+	var youmaxColumns = 2;	
+	var youmaxWidgetWidth = 640;
+	var youmaxWidgetHeight = "";
+	var showFeaturedVideoOnLoad = false;
+	var showVideoInLightbox = true;
 
+	/*
 	if(null==youmaxColumns||youmaxColumns==""||youmaxColumns=="undefined")
 		var youmaxColumns = 2;
 		
@@ -21,7 +30,7 @@
 		if(!showFeaturedVideoOnLoad)
 			showVideoInLightbox = true;
 	}
-
+*/
 	if (typeof youmaxWidgetHeight !== 'undefined') {
 		//alert('youmaxWidgetHeight defined');
 		if(null!=youmaxWidgetHeight&&youmaxWidgetHeight!=""&&youmaxWidgetHeight!="undefined")
@@ -128,7 +137,7 @@
 			var style='<style>::-webkit-scrollbar {width: 10px;}::-webkit-scrollbar-button {display:none;}::-webkit-scrollbar-track-piece {background: #888}::-webkit-scrollbar-thumb {background: #eee}</style>';
 			$('html > head').append(style);		
 
-			prepareYoumax();
+			//prepareYoumax();
 			
 		});
 
