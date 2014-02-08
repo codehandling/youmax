@@ -20,3 +20,6 @@ Basic features:
 
 Instructions:
 http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html
+
+Live Edit Demo:
+http://bitconfig.com/youmax/bitconfig_youmax.html
