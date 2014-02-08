@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youmax 2.0 - complete Youtube channel on your website - customize anything you want - Jquery plugin</title>
+
+	<!--<script src="./jquery.min.js"></script>-->
+	<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+	
+
+	<script type="text/javascript">
+	
+	var youTubeChannelURL = "http://www.youtube.com/user/apple";
+	
+	//optional parameters-----------------------------------------------
+	var youTubePlaylistURL = "http://www.youtube.com/playlist?list=PLHFlHpPjgk713fMv5O4s4Fv7k6yTkXwkV";
+	var youmaxDefaultTab = "featured";
+	var youmaxColumns = 3;	
+	var youmaxWidgetWidth = 900;
+	//var youmaxWidgetHeight = 1000;
+	var showFeaturedVideoOnLoad = false;
+	var showVideoInLightbox = true;
+
+	
+	function goClicked() {
+		$('#youmax').empty().append(' loading ...');
+		youTubeChannelURL=$('#youTubeChannelUrl').val();
+		youTubePlaylistURL=$('#youTubePlaylistUrl').val();
+		youmaxFeaturedPlaylistId = null;
+		prepareYoumax();
+	}
+	
+	$(window).load(function(){$('#youmax-header>img').wrap('<a href="'+youTubeChannelURL+'" target="_blank" />');});
+
+	</script>
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+	  /*#youmax{width:100% !important;}
+	  #youmax-video-list-div{background-color:rgb(53,53,53) !important;}
+	  #youmax-tabs{background-color:rgb(53,53,53) !important;}
+	  #youmax-header{background-color:black !important;}
+	  .youmax-video-list-title{color:white !important;}
+	  .youmax-video-list-views{color:green !important;}*/
+	  
+		
+	</style>
+
+	</head>
+  <body>
+		<a href="http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html">
+		<h1>Youmax 2.0 - complete Youtube channel on your website - customize anything you want - Jquery plugin</h1>
+		</a>
+		Enter your Youtube Channel Url: <span style="color:red;">(Ex: http://www.youtube.com/user/Apple)</span><br/>
+		<input type="text" id="youTubeChannelUrl"/>&nbsp;<br/><br/>
+
+		[Optional] -  Enter your playlist Url to show in the featured Tab: <span style="color:red;">(Ex: http://www.youtube.com/playlist?list=PLHFlHpPjgk713fMv5O4s4Fv7k6yTkXwkV)</span><br/>
+		<input type="text" id="youTubePlaylistUrl"/>&nbsp;
+		<br/>
+		<input type="button" value="Go" onclick="goClicked();">
+		<br/>
+		<br/>
+		
+<div id="youmax"></div>
+
+<br/><br/>
+
+<a href="http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html">See how to use this plugin - at codehandling</a>
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+	
+<script src="./youmax.js"></script>
+
+  </body>
+</html>
+
+
+
