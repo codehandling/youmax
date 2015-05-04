@@ -1,0 +1,104 @@
+.youmax-showing {color:whitesmoke;font-weight:normal;  text-shadow: none;}
+
+.youmax-duration {background-color: black;color: white;padding: 2px 3px;font-weight: bold;position: absolute;bottom: 0;right: 0;opacity: 0.8;}
+
+#youmax-header {background-color:rgb(53,53,53);font:24px Arial;color:white;line-height:25px;height:90px;text-align:left;border: 1px solid rgb(53,53,53);position: relative;}
+
+.youmax-stat {float:right;margin:10px;font:10px Arial;color:#ccc;margin-top: 25px;text-align: center;}
+
+#youmax-stat-holder {float:right;height:100%;}
+
+.youmax-stat-count {font: 18px Arial;}
+
+#youmax-channel-desc {text-align:left;}
+
+#youmax {width:100%; max-width:1000px;background-color: rgb(230,230,230);margin:0px auto;font-family: Calibri;font-size: 14px;text-align:center; overflow-x:hidden;}
+
+.youmax-video-tnail {width:100%; background-repeat:no-repeat; background-size:cover;height:180px;position: relative;}
+
+.youmax-video-tnail-box {width:46%;margin:2%;float:left;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.2);cursor:pointer;cursor:hand;  background-color: white;}
+
+#youmax-encloser {border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;border-bottom: 1px solid #cccccc;  padding-top: 20px;}
+
+#youmax-video-list-div {width:100%;text-align:left;display: inline-block;background-color:rgb(230,230,230);	  padding: 0px 15px; box-sizing: border-box;}
+
+.youmax-video-list-title {color:#438bc5;display: inline-block;padding:2% 10px; padding-bottom: 0px;font-weight:bold;max-width:250px;max-height:18px;overflow:hidden;}
+
+.youmax-video-list-views {color:#555;padding:1% 10px; padding-bottom: 3%;display:inline-block;font-size:12px;  font-family: Arial;}
+
+.youmax-playlist-sidebar {background-color:rgba(0,0,0,0.8);float:right;max-width:50%;height:100%;color:white;text-align:center;width: 70px;}
+
+.youmax-playlist-video-count {	display:inline-block;margin:3%;margin-top:5%;height:20%;  margin-top: 55px; }
+
+.youmax-playlist-sidebar-video {opacity:1;width:64px;height:20%;background-color:rgb(114,114,114);display:inline-block;margin:2% auto;background-size:cover;background-position: center center;background-repeat:no-repeat;}
+.youmax-tab {background-color:rgb(230,230,230);color:#666;text-shadow:0 1px 0 #fff;display: inline-block;margin: 5px;margin-top: 10px;padding: 5px;cursor:pointer;cursor:hand;}
+
+#youmax-tabs {text-align:left;background-color:rgb(230,230,230);padding-left: 10px;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;     padding: 25px 30px 0px 30px;font-size: 18px;}
+
+#youmax-lightbox {position:fixed;background-color:rgba(0,0,0,0.9);z-index:100;width:100%;height:100%;left:0;top:0;}
+
+#youmax-video-lightbox {opacity:1;}
+
+.youmax-subscribe div {
+position:static !important;
+vertical-align: top !important;
+}
+
+.youmax-subscribe iframe {
+position:static !important;
+}
+
+.youmax-subscribe{
+display: inline-block;
+width: 150px;
+height: 25px;
+overflow: hidden;
+position: absolute;
+top: 0;
+margin: auto;
+bottom: 0;
+right: 0;
+}
+
+#youmax-header-logo{
+vertical-align:middle; height:60px; margin: 15px; display:inline-block;
+  margin-left: 32px;
+}
+
+div#youmax-load-more-div {
+  /* height: 40px; */
+  padding: 10px;
+  margin: 15px 30px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  cursor:pointer;
+}
+
+.youmax-tab-hover {
+color:#eee;
+background-color:#999;
+text-shadow:0 0;
+
+}
+
+.youmax-showing-title {
+font-size: 18px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+	display: inline-block;
+}
+
+iframe#youmax-video {
+  margin-bottom: 20px !important;
+}
+
+.youmax-load-more-div-click {
+	background: darkgray;
+	color:white;	
+}
+
+#youmax-load-more-div:hover {
+	background: darkgray;
+	color:white;
+}
