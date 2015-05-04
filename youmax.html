@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Youmax 2.0 - complete Youtube channel on your website - customize anything you want - Jquery plugin</title>
+    <title>Youmax 2.1 - complete Youtube channel on your website - Jquery plugin</title>
 
 	<!--<script src="./jquery.min.js"></script>-->
 	<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
-	
+	<script src="./js/youmax.js"></script>
+	<link rel="stylesheet" href="./css/youmax.css"/>
 
 	<script type="text/javascript">
 	
-	var youTubeChannelURL = "http://www.youtube.com/user/apple";
-	
-	//optional parameters-----------------------------------------------
-	var youTubePlaylistURL = "http://www.youtube.com/playlist?list=PLHFlHpPjgk713fMv5O4s4Fv7k6yTkXwkV";
-	var youmaxDefaultTab = "featured";
-	var youmaxColumns = 3;	
-	var youmaxWidgetWidth = 900;
-	//var youmaxWidgetHeight = 1000;
-	var showFeaturedVideoOnLoad = false;
-	var showVideoInLightbox = true;
+		function goClicked() {
+			$('#youmax').empty().append(' loading ...');
+			
+			$('#youmax').youmax({
+				apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+				youTubeChannelURL:$('#youTubeChannelUrl').val(),
+				
+				youTubePlaylistURL:$('#youTubePlaylistUrl').val(),
+				youmaxDefaultTab:"UPLOADS",
+				youmaxColumns:3,
+				showVideoInLightbox:false,
+				maxResults:15,
+				
+			});
 
-	
-	function goClicked() {
-		$('#youmax').empty().append(' loading ...');
-		youTubeChannelURL=$('#youTubeChannelUrl').val();
-		youTubePlaylistURL=$('#youTubePlaylistUrl').val();
-		youmaxFeaturedPlaylistId = null;
-		prepareYoumax();
-	}
-	
-	$(window).load(function(){$('#youmax-header>img').wrap('<a href="'+youTubeChannelURL+'" target="_blank" />');});
+			//youTubeChannelURL=$('#youTubeChannelUrl').val();
+			//youTubePlaylistURL=$('#youTubePlaylistUrl').val();
+		}
 
 	</script>
 
@@ -55,7 +53,7 @@
 	</head>
   <body>
 		<a href="http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html">
-		<h1>Youmax 2.0 - complete Youtube channel on your website - customize anything you want - Jquery plugin</h1>
+		<h1>Youmax 2.0 - complete Youtube channel on your website - Jquery plugin</h1>
 		</a>
 		Enter your Youtube Channel Url: <span style="color:red;">(Ex: http://www.youtube.com/user/Apple)</span><br/>
 		<input type="text" id="youTubeChannelUrl"/>&nbsp;<br/><br/>
@@ -76,8 +74,23 @@
 <br/><br/><br/>
 <br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/>
+
+
+	<script>
+		$('#youmax').youmax({
+			apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+			youTubeChannelURL:"http://www.youtube.com/user/apple",
+			
+			youTubePlaylistURL:"http://www.youtube.com/playlist?list=PLHFlHpPjgk713fMv5O4s4Fv7k6yTkXwkV",
+			youmaxDefaultTab:"FEATURED",
+			youmaxColumns:3,
+			showVideoInLightbox:false,
+			maxResults:15,
+			
+		});
+		
 	
-<script src="./youmax.js"></script>
+	</script>
 
   </body>
 </html>
