@@ -3,9 +3,9 @@ Youmax
 
 Complete Youtube channel on your website
 
-Documentation: http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html
-Demo: http://demos.codehandling.com/youmax2/youmax.html
-Premium Version: http://www.codehandling.com/2015/02/youmax-50-complete-solution-for.html
+<b>Documentation:</b> http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html<br>
+<b>Demo:</b> http://demos.codehandling.com/youmax2/youmax.html<br>
+<b>Premium Version:</b> http://www.codehandling.com/2015/02/youmax-50-complete-solution-for.html<br>
 
 Screenshots
 ========
