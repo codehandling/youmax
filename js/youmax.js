@@ -225,6 +225,19 @@
 		
 		$('#youmax-tabs').find('span[id^=uploads_]').attr('id','uploads_'+channelUploadsPlaylistId);
 		
+		youmaxDefaultTab = youmax_global_options.youmaxDefaultTab;
+		
+		if(typeof youmaxDefaultTab === 'undefined'||null==youmaxDefaultTab||youmaxDefaultTab==""||youmaxDefaultTab=="undefined") {
+			$("#youmax-tabs span[id^=featured_]").click();
+		} else if(youmaxDefaultTab.toUpperCase()=='UPLOADS'||youmaxDefaultTab.toUpperCase()=='UPLOAD') {
+			$("#youmax-tabs span[id^=uploads_]").click();
+		} else if(youmaxDefaultTab.toUpperCase()=='PLAYLISTS'||youmaxDefaultTab.toUpperCase()=='PLAYLIST') {
+			$("#youmax-tabs span[id^=playlists_]").click();
+		} else if(youmaxDefaultTab.toUpperCase()=='FEATURED'||youmaxDefaultTab.toUpperCase()=='FEATURED') {
+			$("#youmax-tabs span[id^=featured_]").click();
+		}
+		
+		
 	},
 
 	renderSubscribeButton = function() {
@@ -383,13 +396,13 @@
 			}
 		});
 		
-		/* not sure why this is needed
-		var youmaxTnailWidth = $('.youmax-video-tnail').css('width');
+		// not sure why this is needed
+		/*var youmaxTnailWidth = $('.youmax-video-tnail').css('width');
 		youmaxTnailWidth=youmaxTnailWidth.substring(0,youmaxTnailWidth.indexOf("px"));
-		var youmaxTnailHeight = youmaxTnailWidth/youtubeMqdefaultAspectRatio;
+		var youmaxTnailHeight = youmaxTnailWidth/youmax_global_options.youtubeMqdefaultAspectRatio;
 		//$('html > head').append('<style>.youmax-video-tnail{height:'+youmaxTnailHeight+'px;}</style>');	
-		$('div.youmax-video-tnail').css({'height':youmaxTnailHeight+'px'});
-		*/
+		$('div.youmax-video-tnail').css({'height':youmaxTnailHeight+'px'});*/
+		
 
 		getVideoStats(videoIdArray);
 		resetLoadMoreButton();
@@ -579,20 +592,7 @@
 				$youmaxLoadMoreDiv.html('ALL DONE');
 			}
 
-		});
-		
-		youmaxDefaultTab = youmax_global_options.youmaxDefaultTab;
-		
-		if(typeof youmaxDefaultTab === 'undefined'||null==youmaxDefaultTab||youmaxDefaultTab==""||youmaxDefaultTab=="undefined") {
-			$("#youmax-tabs span[id^=featured_]").click();
-		} else if(youmaxDefaultTab.toUpperCase()=='UPLOADS'||youmaxDefaultTab.toUpperCase()=='UPLOAD') {
-			$("#youmax-tabs span[id^=uploads_]").click();
-		} else if(youmaxDefaultTab.toUpperCase()=='PLAYLISTS'||youmaxDefaultTab.toUpperCase()=='PLAYLIST') {
-			$("#youmax-tabs span[id^=playlists_]").click();
-		} else if(youmaxDefaultTab.toUpperCase()=='FEATURED'||youmaxDefaultTab.toUpperCase()=='FEATURED') {
-			$("#youmax-tabs span[id^=featured_]").click();
-		}
-		
+		});		
 		
 		youTubeChannelURL = youmax_global_options.youTubeChannelURL;
 		
@@ -638,7 +638,7 @@
 	
 		//youmax_global_options.youmaxWidgetWidth = options.youmaxWidgetWidth||800;
 		//youmax_global_options.showFeaturedVideoOnLoad = options.showFeaturedVideoOnLoad||false;
-		//youmax_global_options.youtubeMqdefaultAspectRatio = 300/180;
+		youmax_global_options.youtubeMqdefaultAspectRatio = 300/180;
 
 		initFeaturedVideos();
 		prepareYoumax();
