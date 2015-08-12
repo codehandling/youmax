@@ -390,7 +390,7 @@
 			if(youmax_global_options.showVideoInLightbox){
 				showVideoLightbox(this.id);
 			} else {
-				$('#youmax-video').attr('src','http://www.youtube.com/embed/'+this.id);
+				$('#youmax-video').attr('src','//www.youtube.com/embed/'+this.id);
 				$('#youmax-video').show();
 				$('html,body').animate({scrollTop: $("#youmax-header").offset().top},'slow');
 			}
@@ -512,7 +512,7 @@
 
 	showVideoLightbox = function(videoId) {			
 		$('#youmax-lightbox').show();
-		$('#youmax-video-lightbox').attr('src','http://www.youtube.com/embed/'+videoId);
+		$('#youmax-video-lightbox').attr('src','//www.youtube.com/embed/'+videoId);
 		
 		$('#youmax-lightbox').click(function(){
 			$('#youmax-video-lightbox').attr('src','');
