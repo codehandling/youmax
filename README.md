@@ -45,4 +45,4 @@ https://plus.google.com/+JakeHandling
 
 License
 =======
-This plugin is available under the <a href="https://github.com/codehandling/youmax/blob/master/GNU.md">GNU General Public License</a>.
+This plugin is available under the MIT licence under the condition that you cannot re-distribute the plugin.
