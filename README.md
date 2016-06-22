@@ -12,9 +12,9 @@ Complete Youtube channel on your website
 Screenshots
 ========
 
-![alt tag](https://3.bp.blogspot.com/-2faj3rje8Xg/V2pR1tE0SfI/AAAAAAAAB_I/H0-MZ2dUNW8V0vbfnPnNX-L4AOWVCHWOQCLcB/s1600/ymax_screen_1.png)
+![alt tag](https://3.bp.blogspot.com/-2faj3rje8Xg/V2pR1tE0SfI/AAAAAAAAB_I/H0-MZ2dUNW8V0vbfnPnNX-L4AOWVCHWOQCLcB/s800/ymax_screen_1.png)
 <br><br>
-![alt tag](https://1.bp.blogspot.com/-YTbp0peZVq0/V2pR1eVwLhI/AAAAAAAAB_E/l526m2SiQ0koBOJkUKWfXNcNV2N358jXQCLcB/s1600/ymax_screen_2.png)
+![alt tag](https://1.bp.blogspot.com/-YTbp0peZVq0/V2pR1eVwLhI/AAAAAAAAB_E/l526m2SiQ0koBOJkUKWfXNcNV2N358jXQCLcB/s800/ymax_screen_2.png)
 
 
 Benefits
