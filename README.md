@@ -3,7 +3,8 @@ Youmax
 
 Complete Youtube channel on your website
 
-<b>Download:</b> http://www.codehandling.com/p/codehandling-free-plugins.html
+<b>Download:</b> http://www.codehandling.com/p/codehandling-free-plugins.html <br>
+<br>
 <b>Documentation:</b> http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html<br>
 <b>Demo:</b> http://demos.codehandling.com/youmax2/youmax.html<br>
 <b>Premium Version:</b> http://www.codehandling.com/2015/02/youmax-50-complete-solution-for.html<br>
