@@ -3,8 +3,6 @@ Youmax
 
 Complete Youtube channel on your website
 
-<b>Download:</b> http://www.codehandling.com/p/codehandling-free-plugins.html <br>
-<br>
 <b>Demo & Documentation:</b> https://dailydhyaan.com/youmax-youtube-jquery-plugin/youmax.html<br>
 <b>WordPress Version:</b> https://dailydhyaan.com/youtube-wordpress-plugin/youram-demo.html<br>
 
